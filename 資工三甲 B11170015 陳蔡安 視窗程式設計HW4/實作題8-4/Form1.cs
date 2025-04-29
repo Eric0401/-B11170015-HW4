@@ -20,7 +20,7 @@ namespace 實作題8_4
         }
         public int arrMin(int[] number)
         {
-            int min = number[1];
+            int min = number[0];
             for(int i = 0; i < number.Length; i++)
             {
                 if (number[i] < min)
@@ -32,7 +32,7 @@ namespace 實作題8_4
         }
         public int arrMax(int[] number)
         {
-            int max = number[1];
+            int max = number[0];
             for (int i = 0; i < number.Length; i++)
             {
                 if (number[i] > max)

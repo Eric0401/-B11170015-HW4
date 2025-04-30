@@ -15,7 +15,7 @@
     }
     public double Area()
     {
-        return Width * Length;
+        return 2 * (Width * Length) + 2 * (length * Height) + 2 * (Width * Height);
     }
 
 }
